@@ -15,16 +15,7 @@ export const commonStyles = StyleSheet.create({
         alignItems: 'center',
         gap: 10,
     },
-    backButton: {
-        width: 38,
-        height: 38,
-        borderRadius: 11,
-        borderWidth: 1,
-        borderColor: '#ffffff22',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#0d0f14',
-    },
+  
     backButtonText: {
         color: theme.foreground,
         fontSize: 18,
