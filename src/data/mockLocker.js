@@ -16,7 +16,7 @@ export const createMockLocker = () => ({
     notes: 'Welcome to this locker! Feel free to add your notes here.',
     folders: [
         { id: 'docs', name: 'Documents', color: '#3B82F6' },
-        { id: 'img', name: 'Images', color: '#EC4899' },
+        { id: 'img', name: 'Images', color: '#fe3c9d' },
         { id: 'vid', name: 'Videos', color: '#8B5CF6' },
     ],
     files: [
