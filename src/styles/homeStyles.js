@@ -1,0 +1,112 @@
+import { StyleSheet } from 'react-native';
+import { theme } from '../theme/theme';
+
+export const styles = StyleSheet.create({
+    screen: {
+        flex: 1,
+        backgroundColor: theme.background,
+    },
+    heroWrap: {
+        marginTop: 72,
+        paddingHorizontal: 28,
+    },
+    badge: {
+        alignSelf: 'flex-start',
+        backgroundColor: '#12131a',
+        borderWidth: 1,
+        borderColor: theme.border,
+        paddingHorizontal: 12,
+        paddingVertical: 7,
+        borderRadius: 999,
+        marginBottom: 22,
+    },
+    badgeText: {
+        color: theme.mutedForeground,
+        fontSize: 13,
+        fontWeight: '500',
+    },
+    logo: {
+        color: theme.foreground,
+        fontSize: 52,
+        fontWeight: '800',
+        letterSpacing: 0.6,
+        marginBottom: 6,
+    },
+    tagline: {
+        color: '#9d9daa',
+        fontSize: 30,
+        lineHeight: 38,
+        fontWeight: '500',
+    },
+    actionsWrap: {
+        marginTop: 'auto',
+        paddingHorizontal: 24,
+        paddingBottom: 34,
+        gap: 12,
+    },
+    primaryButton: {
+        height: 62,
+        borderRadius: 18,
+        backgroundColor: theme.primary,
+        borderWidth: 1,
+        borderColor: '#ffffff20',
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 18,
+        gap: 12,
+    },
+    primaryButtonIcon: {
+        width: 28,
+        color: theme.primaryForeground,
+        fontSize: 26,
+        fontWeight: '700',
+        textAlign: 'center',
+    },
+    primaryButtonText: {
+        color: theme.primaryForeground,
+        fontSize: 23,
+        fontWeight: '700',
+        flex: 1,
+    },
+    primaryButtonArrow: {
+        color: theme.primaryForeground,
+        fontSize: 24,
+        fontWeight: '700',
+    },
+    secondaryButton: {
+        height: 62,
+        borderRadius: 18,
+        backgroundColor: '#0f1015',
+        borderWidth: 1,
+        borderColor: '#ffffff1f',
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 18,
+        gap: 12,
+    },
+    secondaryButtonIcon: {
+        width: 28,
+        color: '#ccccd5',
+        fontSize: 18,
+        fontWeight: '700',
+        textAlign: 'center',
+    },
+    secondaryButtonText: {
+        color: '#dfdfe5',
+        fontSize: 23,
+        fontWeight: '600',
+        flex: 1,
+    },
+    secondaryButtonArrow: {
+        color: '#dfdfe5',
+        fontSize: 24,
+        fontWeight: '700',
+    },
+    footerText: {
+        color: '#6f6f77',
+        textAlign: 'center',
+        marginTop: 18,
+        fontSize: 17,
+        fontWeight: '500',
+    },
+});
